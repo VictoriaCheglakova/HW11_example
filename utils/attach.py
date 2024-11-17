@@ -1,4 +1,4 @@
-import allure
+import allure-pytest
 from allure_commons.types import AttachmentType
 
 
