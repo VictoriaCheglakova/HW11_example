@@ -10,7 +10,7 @@ from utils import attach
 
 # добавляем фикстуры
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture(scope="session")
 def load_env():
     load_dotenv()
 selenoid_login = os.getenv("SELENOID_LOGIN")
